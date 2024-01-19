@@ -1,0 +1,58 @@
+
+thead{
+    background-color: rgb(206, 157, 74);
+}
+/* .md{
+    background-color: rgb(30, 211, 211);
+} */
+/* .ma{
+    background-color:antiquewhite;
+} */
+
+/* .md:hover{
+ background-color: rgb(0, 143, 143);
+ cursor: pointer;
+}
+.ma:hover{
+    background-color:rgb(21, 151, 151);
+    cursor: pointer; */
+/* } */
+#details tbody tr:nth-child(even){
+    background-color:cadetblue;
+
+}
+#details tbody tr:nth-child(odd){
+    background-color:rgb(25, 203, 75);
+}
+#details tbody tr:hover{
+    background-color: rgb(215, 102, 102);
+    cursor: pointer;
+}
+/* #details tbody tr:nth-child(odd):hover{
+    background-color: rgb(215, 102, 102);
+    cursor: pointer;
+} */
+#details{
+ max-width: 500px;
+ border: 2px solid green;
+ margin: 2px;
+}
+.container{
+    background-color: aqua;
+    color:white;
+    text-align: justify;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 100px;
+
+}
+.width-section{
+    width: 1000px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.max-width-section{
+    max-width: 1000px;
+    border: 2px solid black;
+    margin: 20px;
+}
